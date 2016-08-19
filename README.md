@@ -3,14 +3,14 @@
 <p align="center"> <img src="https://raw.githubusercontent.com/GKalliatakis/Adventures-in-deep-learning/master/deep-learning.png?raw=true" /> </p>
 
 
-##### State-of-the-art Deep Learning publications, frameworks & resources
+### State-of-the-art Deep Learning publications, frameworks & resources
 
 
-##### Overview
+### Overview
 Deep convolutional neural networks have led to a series of breakthroughs for in large-scale image and video recognition. This repository aims at presenting an elaborate list of the latest state-of-the-art works on the field of Deep Learning since 2013.
 Please note that this repository will be updated once every two weeks.
 
-##### Papers (Descending order based on Google Scholar Citations)
+### Papers (Descending order based on Google Scholar Citations)
 
 1. [Very deep convolutional networks for large-scale image recognition (VGG-net). (2014)](https://arxiv.org/pdf/1409.1556v6.pdf)
 2. [Going deeper with convolutions  (GoogLeNet). (2015)](https://arxiv.org/pdf/1409.4842v1.pdf)
@@ -29,7 +29,7 @@ Please note that this repository will be updated once every two weeks.
 
 
 
-##### Resources / Models
+### Resources / Models
 - [VGG-net](https://github.com/BVLC/caffe/wiki/Model-Zoo#models-used-by-the-vgg-team-in-ilsvrc-2014)
 - [GoogLeNet](https://github.com/BVLC/caffe/tree/master/models/bvlc_googlenet)
 - [ResNet - MatConvNet implementation](https://github.com/zhanghang1989/ResNet-Matconvnet)
