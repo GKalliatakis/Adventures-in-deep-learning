@@ -1,6 +1,6 @@
 # Adventures in deep learning
 
-![alt tag](https://raw.githubusercontent.com/GKalliatakis/Adventures-in-deep-learning/master/Adventures-in-deep-learning.png "Adventures in deep learning (!) ")
+<p align="center"> <img src="https://raw.githubusercontent.com/GKalliatakis/Adventures-in-deep-learning/master/Adventures-in-deep-learning.png?raw=true" alt="Sublime's custom image"/> </p>
 
 
 ##### State-of-the-art Deep Learning publications, frameworks & resources
