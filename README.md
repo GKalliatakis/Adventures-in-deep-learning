@@ -1,7 +1,5 @@
-# Adventures in deep learning
-
-<p align="center"> <img src="https://raw.githubusercontent.com/GKalliatakis/Adventures-in-deep-learning/master/deep-learning.png?raw=true" /> </p>
-
+# Adventures in deep learning 
+<p align="left"> <img src="https://raw.githubusercontent.com/GKalliatakis/Adventures-in-deep-learning/master/logo.png?raw=true" /> </p>
 
 ### State-of-the-art Deep Learning publications, frameworks & resources
 
