@@ -3,39 +3,68 @@
 
 ### State-of-the-art Deep Learning publications, frameworks & resources
 
-
-### Overview
+##### Overview
 Deep convolutional neural networks have led to a series of breakthroughs for in large-scale image and video recognition. This repository aims at presenting an elaborate list of the latest state-of-the-art works on the field of Deep Learning since 2013.
 Please note that this repository will be updated once every two weeks.
 
-### Papers (Descending order based on Google Scholar Citations)
+##### Papers (Descending order based on Google Scholar Citations)
 
 1. [Very deep convolutional networks for large-scale image recognition (VGG-net). (2014)](https://arxiv.org/pdf/1409.1556v6.pdf)
-2. [Going deeper with convolutions  (GoogLeNet). (2015)](https://arxiv.org/pdf/1409.4842v1.pdf)
-3. [Fully convolutional networks for semantic segmentation. (2015)](https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf)
-4. [Batch normalization: Accelerating deep network training by reducing internal covariate shift. (2015)](http://arxiv.org/pdf/1502.03167.pdf)
-5. [Delving deep into rectifiers: Surpassing human-level performance on imagenet classification (PReLU). (2014)](https://arxiv.org/pdf/1502.01852v1.pdf)
-6. [Deep residual learning for image recognition (ResNet). (2015)](https://arxiv.org/pdf/1512.03385v1.pdf)
-7. [Spatial pyramid pooling in deep convolutional networks for visual recognition (SPP_net). (2014)](http://arxiv.org/pdf/1406.4729.pdf)
-8. [Fast R-CNN. (2015)](http://arxiv.org/pdf/1504.08083v2.pdf)
-9. [Faster R-CNN: Towards real-time object detection with region proposal networks. (2015)](http://papers.nips.cc/paper/5638-faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks.pdf)
-10. [Understanding deep image representations by inverting them. (2015)](http://arxiv.org/pdf/1412.0035.pdf)
+2. [Going deeper with convolutions  (GoogLeNet) by Google. (2015)](https://arxiv.org/pdf/1409.4842v1.pdf)
+3. [Deepface: closing the gap to human-level performance in face verification. (2014)](https://www.cs.toronto.edu/~ranzato/publications/taigman_cvpr14.pdf)
+4. [Deep learning. (2015)](http://www.nature.com/nature/journal/v521/n7553/pdf/nature14539.pdf)
+5. [Fully convolutional networks for semantic segmentation. (2015)](https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf)
+6. [Batch normalization: Accelerating deep network training by reducing internal covariate shift. (2015)](http://arxiv.org/pdf/1502.03167.pdf)
+7. [Delving deep into rectifiers: Surpassing human-level performance on imagenet classification (PReLU). (2014)](https://arxiv.org/pdf/1502.01852v1.pdf)
+8. [Deep residual learning for image recognition (ResNet) by Microsoft. (2015)](https://arxiv.org/pdf/1512.03385v1.pdf)
+9. [Spatial pyramid pooling in deep convolutional networks for visual recognition (SPP_net). (2014)](http://arxiv.org/pdf/1406.4729.pdf)
+10. [Fast R-CNN. (2015)](http://arxiv.org/pdf/1504.08083v2.pdf)
+11. [Faster R-CNN: Towards real-time object detection with region proposal networks. (2015)](http://papers.nips.cc/paper/5638-faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks.pdf)
+12. [Understanding deep image representations by inverting them. (2015)](http://arxiv.org/pdf/1412.0035.pdf)
 
-[ImageNet Classification with Deep Convolutional Neural Networks (AlexNet). (2012)](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
+- [Deep learning in neural networks: An overview.(2015)](https://arxiv.org/pdf/1404.7828v4.pdf)
+- [ImageNet Classification with Deep Convolutional Neural Networks (AlexNet). (2012)](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
+- [Rectified linear units improve restricted boltzmann machines (ReLU). (2010)](http://machinelearning.wustl.edu/mlpapers/paper_files/icml2010_NairH10.pdf)
 
-[Rectified linear units improve restricted boltzmann machines (ReLU). (2010)](http://machinelearning.wustl.edu/mlpapers/paper_files/icml2010_NairH10.pdf)
+##### Theory
+1. [Deep Neural Networks are Easily Fooled: High Confidence Predictions for Unrecognizable Images. (2015)](http://arxiv.org/pdf/1412.1897v4.pdf)
+2. [Distilling the Knowledge in a Neural Network. (2015)](http://arxiv.org/pdf/1503.02531v1.pdf)
 
 
 
-### Resources / Models
+##### Books
+- [Deep Learning Textbook - An MIT Press book (2016).](http://www.deeplearningbook.org/)
+- [Learning Deep Architectures for AI](http://www.iro.umontreal.ca/~bengioy/papers/ftml_book.pdf)
+- [Neural Nets and Deep Learning](http://neuralnetworksanddeeplearning.com/) [[github]](https://github.com/mnielsen/neural-networks-and-deep-learning)
+
+##### Courses / Tutorials
+- [Caffe Tutorial (CVPR 2015)](https://docs.google.com/presentation/d/1TI4TbU1NaKdPG0VRMhQjW8hsKdnjwx3StjhCZ5ZT5UM/edit#slide=id.g7569f7be5_1_0)
+- [Tutorial on Deep Learning for Vision (CVPR 2014)](https://sites.google.com/site/deeplearningcvpr2014/)
+- [Introduction to Deep Learning with Python - Theano Tutorials](https://github.com/Newmu/Theano-Tutorials)
+- [Deep Learning Tutorials with Theano/Python](https://github.com/lisa-lab/DeepLearningTutorials)
+- [Deep Learning: Take machine learning to the next level (by udacity)](https://www.udacity.com/course/deep-learning--ud730)
+- [DeepLearnToolbox – A Matlab toolbox for Deep Learning](https://github.com/rasmusbergpalm/DeepLearnToolbox)
+- [Stanford Matlab-based Deep Learning](https://github.com/amaas/stanford_dl_ex)
+- [Stanford 231n Class: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/) [[github]](http://cs231n.github.io/)
+
+
+##### Resources / Models
 - [VGG-net](https://github.com/BVLC/caffe/wiki/Model-Zoo#models-used-by-the-vgg-team-in-ilsvrc-2014)
 - [GoogLeNet](https://github.com/BVLC/caffe/tree/master/models/bvlc_googlenet)
 - [ResNet - MatConvNet implementation](https://github.com/zhanghang1989/ResNet-Matconvnet)
 - [AlexNet](https://github.com/BVLC/caffe/tree/master/models/bvlc_alexnet)
 - [Fully Convolutional Networks for Semantic Segmentation](https://github.com/shelhamer/fcn.berkeleyvision.org)
+- [OverFeat](https://github.com/sermanet/OverFeat)
 - [SPP_net](https://github.com/ShaoqingRen/SPP_net)
 - [Fast R-CNN](https://github.com/rbgirshick/fast-rcnn)
 - [Faster R-CNN](https://github.com/rbgirshick/py-faster-rcnn)
+
+
+##### Frameworks & Libraries
+- Caffe: [homepage](http://caffe.berkeleyvision.org/) [[github]](https://github.com/BVLC/caffe) 
+- Torch: [homepage](http://torch.ch/) [[github]](https://github.com/torch) 
+- Theano: [homepage](http://deeplearning.net/software/theano/) [[github]](https://github.com/torch) 
+- Tensorflow: [homepage](https://www.tensorflow.org/) [[github]](https://github.com/tensorflow/tensorflow)
 
 License
 ----
