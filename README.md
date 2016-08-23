@@ -66,6 +66,7 @@ Please note that this repository will be updated once every two weeks.
 - Torch: [homepage](http://torch.ch/) [[github]](https://github.com/torch) 
 - Theano: [homepage](http://deeplearning.net/software/theano/) [[github]](https://github.com/torch) 
 - Tensorflow: [homepage](https://www.tensorflow.org/) [[github]](https://github.com/tensorflow/tensorflow)
+- Keras: [homepage](https://keras.io/) [[github]](https://github.com/fchollet/keras)
 
 License
 ----
