@@ -1,13 +1,13 @@
 # Adventures in deep learning 
 <p align="left"> <img src="https://raw.githubusercontent.com/GKalliatakis/Adventures-in-deep-learning/master/logo.png?raw=true" /> </p>
 
-### State-of-the-art Deep Learning publications, frameworks & resources
+## State-of-the-art Deep Learning publications, frameworks & resources
 
-##### Overview
+#### Overview
 Deep convolutional neural networks have led to a series of breakthroughs for in large-scale image and video recognition. This repository aims at presenting an elaborate list of the latest state-of-the-art works on the field of Deep Learning since 2013.
 Please note that this repository will be updated once every two weeks.
 
-##### Papers (Descending order based on Google Scholar Citations)
+#### State-of-the-art papers (Descending order based on Google Scholar Citations)
 
 1. [Very deep convolutional networks for large-scale image recognition (VGG-net). (2014)](https://arxiv.org/pdf/1409.1556v6.pdf)
 2. [Going deeper with convolutions  (GoogLeNet) by Google. (2015)](https://arxiv.org/pdf/1409.4842v1.pdf)
@@ -22,22 +22,23 @@ Please note that this repository will be updated once every two weeks.
 11. [Faster R-CNN: Towards real-time object detection with region proposal networks. (2015)](http://papers.nips.cc/paper/5638-faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks.pdf)
 12. [Understanding deep image representations by inverting them. (2015)](http://arxiv.org/pdf/1412.0035.pdf)
 
+#### Classic publications
 - [Deep learning in neural networks: An overview.(2015)](https://arxiv.org/pdf/1404.7828v4.pdf)
 - [ImageNet Classification with Deep Convolutional Neural Networks (AlexNet). (2012)](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
 - [Rectified linear units improve restricted boltzmann machines (ReLU). (2010)](http://machinelearning.wustl.edu/mlpapers/paper_files/icml2010_NairH10.pdf)
 
-##### Theory
+#### Theory
 1. [Deep Neural Networks are Easily Fooled: High Confidence Predictions for Unrecognizable Images. (2015)](http://arxiv.org/pdf/1412.1897v4.pdf)
 2. [Distilling the Knowledge in a Neural Network. (2015)](http://arxiv.org/pdf/1503.02531v1.pdf)
 
 
 
-##### Books
+#### Books
 - [Deep Learning Textbook - An MIT Press book (2016).](http://www.deeplearningbook.org/)
 - [Learning Deep Architectures for AI](http://www.iro.umontreal.ca/~bengioy/papers/ftml_book.pdf)
 - [Neural Nets and Deep Learning](http://neuralnetworksanddeeplearning.com/) [[github]](https://github.com/mnielsen/neural-networks-and-deep-learning)
 
-##### Courses / Tutorials
+#### Courses / Tutorials
 - [Caffe Tutorial (CVPR 2015)](https://docs.google.com/presentation/d/1TI4TbU1NaKdPG0VRMhQjW8hsKdnjwx3StjhCZ5ZT5UM/edit#slide=id.g7569f7be5_1_0)
 - [Tutorial on Deep Learning for Vision (CVPR 2014)](https://sites.google.com/site/deeplearningcvpr2014/)
 - [Introduction to Deep Learning with Python - Theano Tutorials](https://github.com/Newmu/Theano-Tutorials)
@@ -48,7 +49,7 @@ Please note that this repository will be updated once every two weeks.
 - [Stanford 231n Class: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/) [[github]](http://cs231n.github.io/)
 
 
-##### Resources / Models
+#### Resources / Models
 - [VGG-net](https://github.com/BVLC/caffe/wiki/Model-Zoo#models-used-by-the-vgg-team-in-ilsvrc-2014)
 - [GoogLeNet](https://github.com/BVLC/caffe/tree/master/models/bvlc_googlenet)
 - [ResNet - MatConvNet implementation](https://github.com/zhanghang1989/ResNet-Matconvnet)
@@ -60,7 +61,7 @@ Please note that this repository will be updated once every two weeks.
 - [Faster R-CNN](https://github.com/rbgirshick/py-faster-rcnn)
 
 
-##### Frameworks & Libraries
+#### Frameworks & Libraries
 - Caffe: [homepage](http://caffe.berkeleyvision.org/) [[github]](https://github.com/BVLC/caffe) 
 - Torch: [homepage](http://torch.ch/) [[github]](https://github.com/torch) 
 - Theano: [homepage](http://deeplearning.net/software/theano/) [[github]](https://github.com/torch) 
