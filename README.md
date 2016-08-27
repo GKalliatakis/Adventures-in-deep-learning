@@ -9,27 +9,30 @@ Please note that this repository will be updated once every two weeks.
 
 #### State-of-the-art papers (Descending order based on Google Scholar Citations)
 
-1. [Very deep convolutional networks for large-scale image recognition (VGG-net). (2014)](https://arxiv.org/pdf/1409.1556v6.pdf)
-2. [Going deeper with convolutions  (GoogLeNet) by Google. (2015)](https://arxiv.org/pdf/1409.4842v1.pdf)
-3. [Deepface: closing the gap to human-level performance in face verification. (2014)](https://www.cs.toronto.edu/~ranzato/publications/taigman_cvpr14.pdf)
-4. [Deep learning. (2015)](http://www.nature.com/nature/journal/v521/n7553/pdf/nature14539.pdf)
-5. [Fully convolutional networks for semantic segmentation. (2015)](https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf)
-6. [Batch normalization: Accelerating deep network training by reducing internal covariate shift. (2015)](http://arxiv.org/pdf/1502.03167.pdf)
-7. [Delving deep into rectifiers: Surpassing human-level performance on imagenet classification (PReLU). (2014)](https://arxiv.org/pdf/1502.01852v1.pdf)
-8. [Deep residual learning for image recognition (ResNet) by Microsoft. (2015)](https://arxiv.org/pdf/1512.03385v1.pdf)
-9. [Spatial pyramid pooling in deep convolutional networks for visual recognition (SPP_net). (2014)](http://arxiv.org/pdf/1406.4729.pdf)
-10. [Fast R-CNN. (2015)](http://arxiv.org/pdf/1504.08083v2.pdf)
-11. [Faster R-CNN: Towards real-time object detection with region proposal networks. (2015)](http://papers.nips.cc/paper/5638-faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks.pdf)
-12. [Understanding deep image representations by inverting them. (2015)](http://arxiv.org/pdf/1412.0035.pdf)
+1. [Very deep convolutional networks for large-scale image recognition (VGG-net). (2014)](https://arxiv.org/pdf/1409.1556v6.pdf) [[Video]](https://www.youtube.com/watch?v=j1jIoHN3m0s)
+2. [Going deeper with convolutions  (GoogLeNet) by Google. (2015)](https://arxiv.org/pdf/1409.4842v1.pdf) [[Video]](https://www.youtube.com/watch?v=ySrj_G5gHWI)
+3. [Visualizing and Understanding Convolutional Neural Networks (ZF Net). (2014)](https://arxiv.org/pdf/1311.2901v3.pdf) [[Video]](https://www.youtube.com/watch?v=ghEmQSxT6tw)
+4. [Deepface: closing the gap to human-level performance in face verification. (2014)](https://www.cs.toronto.edu/~ranzato/publications/taigman_cvpr14.pdf) [[Video]](https://www.youtube.com/watch?v=n0PQqsaGMhs)
+5. [Deep learning. (2015)](http://www.nature.com/nature/journal/v521/n7553/pdf/nature14539.pdf)
+6. [Fully convolutional networks for semantic segmentation. (2015)](https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf)
+7. [Batch normalization: Accelerating deep network training by reducing internal covariate shift. (2015)](http://arxiv.org/pdf/1502.03167.pdf)
+8. [Delving deep into rectifiers: Surpassing human-level performance on imagenet classification (PReLU). (2014)](https://arxiv.org/pdf/1502.01852v1.pdf)
+9. [Deep residual learning for image recognition (ResNet) by Microsoft. (2015)](https://arxiv.org/pdf/1512.03385v1.pdf) [[Video]](https://www.youtube.com/watch?v=1PGLj-uKT1w)
+10. [Spatial pyramid pooling in deep convolutional networks for visual recognition (SPP_net). (2014)](http://arxiv.org/pdf/1406.4729.pdf) [[Video]](https://www.youtube.com/watch?v=CX8CCHKlfOE)
+11. [Fast R-CNN. (2015)](http://arxiv.org/pdf/1504.08083v2.pdf)
+12. [Faster R-CNN: Towards real-time object detection with region proposal networks. (2015)](http://papers.nips.cc/paper/5638-faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks.pdf)
+13. [Generative Adversarial Nets. (2014)](http://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf)
+14. [Understanding deep image representations by inverting them. (2015)](http://arxiv.org/pdf/1412.0035.pdf)
+15. [Spatial Transformer Networks. (2015)](http://papers.nips.cc/paper/5854-spatial-transformer-networks.pdf) [[Video]](https://www.youtube.com/watch?v=6NOQC_fl1hQ)
 
 #### Classic publications
-- [Deep learning in neural networks: An overview.(2015)](https://arxiv.org/pdf/1404.7828v4.pdf)
 - [ImageNet Classification with Deep Convolutional Neural Networks (AlexNet). (2012)](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
 - [Rectified linear units improve restricted boltzmann machines (ReLU). (2010)](http://machinelearning.wustl.edu/mlpapers/paper_files/icml2010_NairH10.pdf)
 
 #### Theory
 1. [Deep Neural Networks are Easily Fooled: High Confidence Predictions for Unrecognizable Images. (2015)](http://arxiv.org/pdf/1412.1897v4.pdf)
 2. [Distilling the Knowledge in a Neural Network. (2015)](http://arxiv.org/pdf/1503.02531v1.pdf)
+3. [Deep learning in neural networks: An overview.(2015)](https://arxiv.org/pdf/1404.7828v4.pdf)
 
 
 
