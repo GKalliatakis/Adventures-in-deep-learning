@@ -1,79 +1,54 @@
-# Adventures in deep learning 
+# Caffe Installation on Ubuntu
 <p align="left"> <img src="https://raw.githubusercontent.com/GKalliatakis/Adventures-in-deep-learning/master/logo.png?raw=true" /> </p>
 
-## State-of-the-art Deep Learning publications, frameworks & resources
-
 ### Overview
-Deep convolutional neural networks have led to a series of breakthroughs for in large-scale image and video recognition. This repository aims at presenting an elaborate list of the latest state-of-the-art works on the field of Deep Learning since 2013.
-
-**_This is going to be an evolving repository and I will keep updating it (at least once every two weeks)_**.
+Caffe is a deep learning framework made with expression, speed, and modularity in mind. It is developed by the Berkeley Vision and Learning Center (BVLC) and by community contributors.
 
 ---
 
 
-### State-of-the-art papers (Descending order based on Google Scholar Citations)
+### Installation:
+First, you need to install the general dependencies using the following command:
+```sh
+$ sudo apt-get install libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libboost-all-dev libhdf5-serial-dev libgflags-dev libgoogle-glog-dev liblmdb-dev protobuf-compiler
+```
 
-1. Very deep convolutional networks for large-scale image recognition (VGG-net)  (2014) [[pdf]](https://arxiv.org/pdf/1409.1556v6.pdf) [[video]](https://www.youtube.com/watch?v=j1jIoHN3m0s)
-2. Going deeper with convolutions  (GoogLeNet) by Google (2015) [[pdf]](https://arxiv.org/pdf/1409.4842v1.pdf) [[video]](https://www.youtube.com/watch?v=ySrj_G5gHWI)
-3. Visualizing and Understanding Convolutional Neural Networks (ZF Net) (2014) [[pdf]](https://arxiv.org/pdf/1311.2901v3.pdf) [[video]](https://www.youtube.com/watch?v=ghEmQSxT6tw)
-4. Deepface: closing the gap to human-level performance in face verification (2014) [[pdf]](https://www.cs.toronto.edu/~ranzato/publications/taigman_cvpr14.pdf) [[video]](https://www.youtube.com/watch?v=n0PQqsaGMhs)
-5. Deep learning (2015) [[pdf]](http://www.nature.com/nature/journal/v521/n7553/pdf/nature14539.pdf)
-6. Fully convolutional networks for semantic segmentation (2015) [[pdf]](https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf)
-7. Batch normalization: Accelerating deep network training by reducing internal covariate shift (2015) [[pdf]](http://arxiv.org/pdf/1502.03167.pdf)
-8. Delving deep into rectifiers: Surpassing human-level performance on imagenet classification (PReLU) (2014) [[pdf]](https://arxiv.org/pdf/1502.01852v1.pdf)
-9. Deep residual learning for image recognition (ResNet) by Microsoft (2015) [[pdf]](https://arxiv.org/pdf/1512.03385v1.pdf) [[video]](https://www.youtube.com/watch?v=1PGLj-uKT1w)
-10. Spatial pyramid pooling in deep convolutional networks for visual recognition (SPP Net) (2014) [[pdf]](http://arxiv.org/pdf/1406.4729.pdf) [[video]](https://www.youtube.com/watch?v=CX8CCHKlfOE)
-11. Fast R-CNN (2015) [[pdf]](http://arxiv.org/pdf/1504.08083v2.pdf)
-12. Faster R-CNN: Towards real-time object detection with region proposal networks (2015) [[pdf]](http://papers.nips.cc/paper/5638-faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks.pdf)
-13. Generative Adversarial Nets (2014) [[pdf]](http://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf)
-14. Understanding deep image representations by inverting them (2015) [[pdf]](http://arxiv.org/pdf/1412.0035.pdf)
-15. Spatial Transformer Networks (2015) [[pdf]](http://papers.nips.cc/paper/5854-spatial-transformer-networks.pdf) [[video]](https://www.youtube.com/watch?v=6NOQC_fl1hQ)
+After installing these, you need to install three more dependencies:
+- CUDA is required for GPU mode. Installing CUDA is optional but it is recommended for better performance. To install CUDA, you can visit the link https://developer.nvidia.com/cuda-downloads  and then you can download CUDA for Ubuntu 14.04. Start the download and go get some coffee since it is quite large and will take time to download. After successful download, install it. 
+- BLAS : Install ATLAS by `sh sudo apt-get install libatlas-base-dev` or install OpenBLAS or MKL for better CPU performance.
+- BOOST : BOOST C++ library can be downloaded and installed through [Sourceforge](https://sourceforge.net/projects/boost/files/boost/1.58.0/).
+- OpenCV 2.4 or above: For installing OpenCV, follow this [link](http://docs.opencv.org/2.4/doc/tutorials/introduction/linux_install/linux_install.html).
+- Python: If you use the default python, then you will need to `sudo apt-get install python-dev` package.
+### Compilation:
+Now you need to edit the config file (Makefile.config). Create the config file by copying the contents of Makefile.config.example file to Makefile.config using the following command:
+```sh cp Makefile.config.example  Makefile.config ```
 
-### Classic publications
-- ImageNet Classification with Deep Convolutional Neural Networks (AlexNet) (2012) [[pdf]](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
-- Rectified linear units improve restricted boltzmann machines (ReLU) (2010) [[pdf]](http://machinelearning.wustl.edu/mlpapers/paper_files/icml2010_NairH10.pdf) 
+After this, you need to change the configurations in Makefile.config file. Change the config according to the following conditions:
+- For cuDNN acceleration, you should uncomment the USE_CUDNN := 1 switch in Makefile.config.
+- For CPU-only Caffe, uncomment CPU_ONLY := 1 in Makefile.config.
 
-### Theory
-1. Deep Neural Networks are Easily Fooled: High Confidence Predictions for Unrecognizable Images (2015) [[pdf]](http://arxiv.org/pdf/1412.1897v4.pdf)
-2. Distilling the Knowledge in a Neural Network (2015) [[pdf]](http://arxiv.org/pdf/1503.02531v1.pdf)
-3. Deep learning in neural networks: An overview (2015) [[pdf]](https://arxiv.org/pdf/1404.7828v4.pdf)
+The complete configuration of my Makefile can also be found on the current repo.
 
+After making successful changes in the configuration file, you need to run the following commands:
 
+```sh 
+make all
+make test
+make runtest
+```
 
-### Books
-- Deep Learning Textbook - An MIT Press book (2016) [[html]](http://www.deeplearningbook.org/)
-- Learning Deep Architectures for AI [[pdf]](http://www.iro.umontreal.ca/~bengioy/papers/ftml_book.pdf)
-- Neural Nets and Deep Learning [[html]](http://neuralnetworksanddeeplearning.com/) [[github]](https://github.com/mnielsen/neural-networks-and-deep-learning)
+(Before running next two compilation commands, you need to make sure that you have set PYTHON and MATLAB path in Makefile.config)
+To compile the PYTHON wrappers, you need to run the command,
+```sh 
+make pycaffe
+```
 
-### Courses / Tutorials (Webpages unless other is stated)
-- [Caffe Tutorial (CVPR 2015)](https://docs.google.com/presentation/d/1TI4TbU1NaKdPG0VRMhQjW8hsKdnjwx3StjhCZ5ZT5UM/edit#slide=id.g7569f7be5_1_0)
-- [Tutorial on Deep Learning for Vision (CVPR 2014)](https://sites.google.com/site/deeplearningcvpr2014/)
-- [Introduction to Deep Learning with Python - Theano Tutorials](https://github.com/Newmu/Theano-Tutorials)
-- [Deep Learning Tutorials with Theano/Python](https://github.com/lisa-lab/DeepLearningTutorials)
-- [Deep Learning: Take machine learning to the next level (by udacity)](https://www.udacity.com/course/deep-learning--ud730)
-- [DeepLearnToolbox – A Matlab toolbox for Deep Learning](https://github.com/rasmusbergpalm/DeepLearnToolbox)
-- [Stanford Matlab-based Deep Learning](https://github.com/amaas/stanford_dl_ex)
-- [Stanford 231n Class: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/) [[github]](http://cs231n.github.io/)
+To compile the MATLAB wrappers, you need to run the command ,
+```sh 
+make metacaffe
+```
 
-
-### Resources / Models (GitHub repositories unless other is stated)
-- [VGG-net](https://github.com/BVLC/caffe/wiki/Model-Zoo#models-used-by-the-vgg-team-in-ilsvrc-2014)
-- [GoogLeNet](https://github.com/BVLC/caffe/tree/master/models/bvlc_googlenet)
-- [ResNet - MatConvNet implementation](https://github.com/zhanghang1989/ResNet-Matconvnet)
-- [AlexNet](https://github.com/BVLC/caffe/tree/master/models/bvlc_alexnet)
-- [Fully Convolutional Networks for Semantic Segmentation](https://github.com/shelhamer/fcn.berkeleyvision.org)
-- [OverFeat](https://github.com/sermanet/OverFeat)
-- [SPP_net](https://github.com/ShaoqingRen/SPP_net)
-- [Fast R-CNN](https://github.com/rbgirshick/fast-rcnn)
-- [Faster R-CNN](https://github.com/rbgirshick/py-faster-rcnn)
-
-
-### Frameworks & Libraries
-- Caffe: [homepage](http://caffe.berkeleyvision.org/) [[github]](https://github.com/BVLC/caffe) 
-- Torch: [homepage](http://torch.ch/) [[github]](https://github.com/torch) 
-- Theano: [homepage](http://deeplearning.net/software/theano/) [[github]](https://github.com/torch) 
-- Tensorflow: [homepage](https://www.tensorflow.org/) [[github]](https://github.com/tensorflow/tensorflow)
-- Keras: [homepage](https://keras.io/) [[github]](https://github.com/fchollet/keras)
+Finally, if you have reached here, then you have installed Caffe on your System successfully.  
 
 License
 ----
