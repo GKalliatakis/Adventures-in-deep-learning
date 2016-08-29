@@ -5,7 +5,7 @@
 
 #### Overview
 Deep convolutional neural networks have led to a series of breakthroughs for in large-scale image and video recognition. This repository aims at presenting an elaborate list of the latest state-of-the-art works on the field of Deep Learning since 2013.
-Please note that this repository will be updated once every two weeks.
+This is going to be an evolving repository and I will keep updating it (at least once every two weeks).
 
 #### State-of-the-art papers (Descending order based on Google Scholar Citations)
 
