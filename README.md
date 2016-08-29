@@ -69,11 +69,11 @@ Deep convolutional neural networks have led to a series of breakthroughs for in 
 
 
 ### Frameworks & Libraries
-- Caffe: [homepage](http://caffe.berkeleyvision.org/) [[github]](https://github.com/BVLC/caffe) 
-- Torch: [homepage](http://torch.ch/) [[github]](https://github.com/torch) 
-- Theano: [homepage](http://deeplearning.net/software/theano/) [[github]](https://github.com/torch) 
-- Tensorflow: [homepage](https://www.tensorflow.org/) [[github]](https://github.com/tensorflow/tensorflow)
-- Keras: [homepage](https://keras.io/) [[github]](https://github.com/fchollet/keras)
+- Caffe: [[homepage]](http://caffe.berkeleyvision.org/) [[github]](https://github.com/BVLC/caffe) [[Installation Instructions]](Caffe_Installation/README.md)
+- Torch: [[homepage]](http://torch.ch/) [[github]](https://github.com/torch) 
+- Theano: [[homepage]](http://deeplearning.net/software/theano/) [[github]](https://github.com/torch) 
+- Tensorflow: [[homepage]](https://www.tensorflow.org/) [[github]](https://github.com/tensorflow/tensorflow)
+- Keras: [[homepage]](https://keras.io/) [[github]](https://github.com/fchollet/keras)
 
 License
 ----
