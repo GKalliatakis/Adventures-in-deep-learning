@@ -54,6 +54,7 @@ Deep convolutional neural networks have led to a series of breakthroughs for in 
 - [DeepLearnToolbox – A Matlab toolbox for Deep Learning](https://github.com/rasmusbergpalm/DeepLearnToolbox)
 - [Stanford Matlab-based Deep Learning](https://github.com/amaas/stanford_dl_ex)
 - [Stanford 231n Class: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/) [[github]](http://cs231n.github.io/)
+- [Deep Learning Course (by Yann LeCun-2016)](https://www.college-de-france.fr/site/en-yann-lecun/course-2015-2016.htm)
 
 
 ### Resources / Models (GitHub repositories unless other is stated)
