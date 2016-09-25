@@ -69,12 +69,12 @@ Deep convolutional neural networks have led to a series of breakthroughs for in 
 - [Faster R-CNN](https://github.com/rbgirshick/py-faster-rcnn)
 
 
-### Frameworks & Libraries
-- Caffe: [[homepage]](http://caffe.berkeleyvision.org/) [[github]](https://github.com/BVLC/caffe) [[Installation Instructions]](Caffe_Installation/README.md)
-- Torch: [[homepage]](http://torch.ch/) [[github]](https://github.com/torch) 
-- Theano: [[homepage]](http://deeplearning.net/software/theano/) [[github]](https://github.com/torch) 
+### Frameworks & Libraries (Descending order based on GitHub stars)
 - Tensorflow: [[homepage]](https://www.tensorflow.org/) [[github]](https://github.com/tensorflow/tensorflow)
+- Caffe: [[homepage]](http://caffe.berkeleyvision.org/) [[github]](https://github.com/BVLC/caffe) [[Installation Instructions]](Caffe_Installation/README.md)
 - Keras: [[homepage]](https://keras.io/) [[github]](https://github.com/fchollet/keras)
+- Torch: [[homepage]](http://torch.ch/) [[github]](https://github.com/torch) 
+- Theano: [[homepage]](http://deeplearning.net/software/theano/) [[github]](https://github.com/Theano/Theano) 
 
 License
 ----
