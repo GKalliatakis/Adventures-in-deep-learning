@@ -15,35 +15,43 @@ Deep convolutional neural networks have led to a series of breakthroughs in larg
 
 1. Very deep convolutional networks for large-scale image recognition (VGG-net)  (2014) [[pdf]](https://arxiv.org/pdf/1409.1556v6.pdf) [[video]](https://www.youtube.com/watch?v=j1jIoHN3m0s)
 2. Going deeper with convolutions  (GoogLeNet) by Google (2015) [[pdf]](https://arxiv.org/pdf/1409.4842v1.pdf) [[video]](https://www.youtube.com/watch?v=ySrj_G5gHWI)
-3. Visualizing and Understanding Convolutional Neural Networks (ZF Net) (2014) [[pdf]](https://arxiv.org/pdf/1311.2901v3.pdf) [[video]](https://www.youtube.com/watch?v=ghEmQSxT6tw)
-4. Deepface: closing the gap to human-level performance in face verification (2014) [[pdf]](https://www.cs.toronto.edu/~ranzato/publications/taigman_cvpr14.pdf) [[video]](https://www.youtube.com/watch?v=n0PQqsaGMhs)
-5. Deep learning (2015) [[pdf]](http://www.nature.com/nature/journal/v521/n7553/pdf/nature14539.pdf)
-6. Fully convolutional networks for semantic segmentation (2015) [[pdf]](https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf)
-7. Batch normalization: Accelerating deep network training by reducing internal covariate shift (2015) [[pdf]](http://arxiv.org/pdf/1502.03167.pdf)
-8. Delving deep into rectifiers: Surpassing human-level performance on imagenet classification (PReLU) (2014) [[pdf]](https://arxiv.org/pdf/1502.01852v1.pdf)
-9. Deep residual learning for image recognition (ResNet) by Microsoft (2015) [[pdf]](https://arxiv.org/pdf/1512.03385v1.pdf) [[video]](https://www.youtube.com/watch?v=1PGLj-uKT1w)
-10. Spatial pyramid pooling in deep convolutional networks for visual recognition (SPP Net) (2014) [[pdf]](http://arxiv.org/pdf/1406.4729.pdf) [[video]](https://www.youtube.com/watch?v=CX8CCHKlfOE)
-11. Fast R-CNN (2015) [[pdf]](http://arxiv.org/pdf/1504.08083v2.pdf)
-12. Faster R-CNN: Towards real-time object detection with region proposal networks (2015) [[pdf]](http://papers.nips.cc/paper/5638-faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks.pdf)
-13. Generative Adversarial Nets (2014) [[pdf]](http://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf)
-14. Understanding deep image representations by inverting them (2015) [[pdf]](http://arxiv.org/pdf/1412.0035.pdf)
+3. Deep learning (2015) [[pdf]](http://www.nature.com/nature/journal/v521/n7553/pdf/nature14539.pdf)
+4. Visualizing and Understanding Convolutional Neural Networks (ZF Net) (2014) [[pdf]](https://arxiv.org/pdf/1311.2901v3.pdf) [[video]](https://www.youtube.com/watch?v=ghEmQSxT6tw)
+5. Fully convolutional networks for semantic segmentation (2015) [[pdf]](https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf)
+6. Deep residual learning for image recognition (ResNet) by Microsoft (2015) [[pdf]](https://arxiv.org/pdf/1512.03385v1.pdf) [[video]](https://www.youtube.com/watch?v=1PGLj-uKT1w)
+7. Deepface: closing the gap to human-level performance in face verification (2014) [[pdf]](https://www.cs.toronto.edu/~ranzato/publications/taigman_cvpr14.pdf) [[video]](https://www.youtube.com/watch?v=n0PQqsaGMhs)
+8. Batch normalization: Accelerating deep network training by reducing internal covariate shift (2015) [[pdf]](http://arxiv.org/pdf/1502.03167.pdf)
+9. Deep Learning in Neural Networks: An Overview  (2015) [[pdf]](http://ac.els-cdn.com/S0893608014002135/1-s2.0-S0893608014002135-main.pdf?_tid=1def3e8e-dcc0-11e6-aa7a-00000aab0f6b&acdnat=1484663017_c94a90fcbaaaa409820cadce8b842213)
+10. Delving deep into rectifiers: Surpassing human-level performance on imagenet classification (PReLU) (2014) [[pdf]](https://arxiv.org/pdf/1502.01852v1.pdf)
+11. Faster R-CNN: Towards real-time object detection with region proposal networks (2015) [[pdf]](http://papers.nips.cc/paper/5638-faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks.pdf)
+12. Fast R-CNN (2015) [[pdf]](http://arxiv.org/pdf/1504.08083v2.pdf)
+13. Spatial pyramid pooling in deep convolutional networks for visual recognition (SPP Net) (2014) [[pdf]](http://arxiv.org/pdf/1406.4729.pdf) [[video]](https://www.youtube.com/watch?v=CX8CCHKlfOE)
+14. Generative Adversarial Nets (2014) [[pdf]](http://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf)
 15. Spatial Transformer Networks (2015) [[pdf]](http://papers.nips.cc/paper/5854-spatial-transformer-networks.pdf) [[video]](https://www.youtube.com/watch?v=6NOQC_fl1hQ)
+16. Understanding deep image representations by inverting them (2015) [[pdf]](http://arxiv.org/pdf/1412.0035.pdf)
+17. Deep Learning of Representations: Looking Forward (2013) [[pdf]](https://arxiv.org/pdf/1305.0445.pdf)
+
+----------
 
 ### Classic publications
 - ImageNet Classification with Deep Convolutional Neural Networks (AlexNet) (2012) [[pdf]](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
 - Rectified linear units improve restricted boltzmann machines (ReLU) (2010) [[pdf]](http://machinelearning.wustl.edu/mlpapers/paper_files/icml2010_NairH10.pdf) 
+
+----------
 
 ### Theory
 1. Deep Neural Networks are Easily Fooled: High Confidence Predictions for Unrecognizable Images (2015) [[pdf]](http://arxiv.org/pdf/1412.1897v4.pdf)
 2. Distilling the Knowledge in a Neural Network (2015) [[pdf]](http://arxiv.org/pdf/1503.02531v1.pdf)
 3. Deep learning in neural networks: An overview (2015) [[pdf]](https://arxiv.org/pdf/1404.7828v4.pdf)
 
-
+----------
 
 ### Books
 - Deep Learning Textbook - An MIT Press book (2016) [[html]](http://www.deeplearningbook.org/)
 - Learning Deep Architectures for AI [[pdf]](http://www.iro.umontreal.ca/~bengioy/papers/ftml_book.pdf)
 - Neural Nets and Deep Learning [[html]](http://neuralnetworksanddeeplearning.com/) [[github]](https://github.com/mnielsen/neural-networks-and-deep-learning)
+
+----------
 
 ### Courses / Tutorials (Webpages unless other is stated)
 - [Caffe Tutorial (CVPR 2015)](https://docs.google.com/presentation/d/1TI4TbU1NaKdPG0VRMhQjW8hsKdnjwx3StjhCZ5ZT5UM/edit#slide=id.g7569f7be5_1_0)
@@ -55,6 +63,10 @@ Deep convolutional neural networks have led to a series of breakthroughs in larg
 - Stanford Matlab-based Deep Learning [[github]](https://github.com/amaas/stanford_dl_ex)
 - [Stanford 231n Class: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/) [[github]](http://cs231n.github.io/)
 - [Deep Learning Course (by Yann LeCun-2016)](https://www.college-de-france.fr/site/en-yann-lecun/course-2015-2016.htm)
+- [Generative Models (by OpenAI)](https://openai.com/blog/generative-models/)
+- [An introduction to Generative Adversarial Networks (with code in TensorFlow)](http://blog.aylien.com/introduction-generative-adversarial-networks-code-tensorflow/)
+
+----------
 
 
 ### Resources / Models (GitHub repositories unless other is stated)
@@ -67,6 +79,10 @@ Deep convolutional neural networks have led to a series of breakthroughs in larg
 - [SPP_net](https://github.com/ShaoqingRen/SPP_net)
 - [Fast R-CNN](https://github.com/rbgirshick/fast-rcnn)
 - [Faster R-CNN](https://github.com/rbgirshick/py-faster-rcnn)
+- [Generative Adversarial Networks (GANs)](https://github.com/goodfeli/adversarial)
+- [Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks)](https://github.com/Newmu/dcgan_code)
+
+----------
 
 
 ### Frameworks & Libraries (Descending order based on GitHub stars)
@@ -77,6 +93,7 @@ Deep convolutional neural networks have led to a series of breakthroughs in larg
 - Theano: [[homepage]](http://deeplearning.net/software/theano/) [[github]](https://github.com/Theano/Theano) 
 
 License
+
 ----
 
 MIT
