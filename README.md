@@ -92,10 +92,9 @@ Deep convolutional neural networks have led to a series of breakthroughs in larg
 - Torch: [[homepage]](http://torch.ch/) [[github]](https://github.com/torch) 
 - Theano: [[homepage]](http://deeplearning.net/software/theano/) [[github]](https://github.com/Theano/Theano) 
 
-License
-
 ----
 
+License
 MIT
 
 
