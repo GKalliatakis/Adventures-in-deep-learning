@@ -1,5 +1,6 @@
 # Adventures in deep learning 
-<p align="left"> <img src="https://raw.githubusercontent.com/GKalliatakis/Adventures-in-deep-learning/master/logo.png?raw=true" /> </p>
+
+[<img src="https://raw.githubusercontent.com/GKalliatakis/Adventures-in-deep-learning/master/logo.png?raw=true">](http://gkalliatakis.com/blog/adventures-in-deep-learning)
 
 ## State-of-the-art Deep Learning publications, frameworks & resources
 
@@ -92,7 +93,7 @@ Deep convolutional neural networks have led to a series of breakthroughs in larg
 - Microsoft Cognitive Toolkit - CNTK  [C++]: [[homepage]](https://www.microsoft.com/en-us/research/product/cognitive-toolkit/) [[github]](https://github.com/Microsoft/CNTK)
 - MXNet adapted by Amazon  [C++]: [[homepage]](http://mxnet.io/) [[github]](https://github.com/dmlc/mxnet)
 - Torch by Collobert, Kavukcuoglu & Clement Farabet, widely used by Facebook  [Lua]: [[homepage]](http://torch.ch/) [[github]](https://github.com/torch) 
-- Convnetjs by Andrej Karpathy  [JavaScript]: [[homepage]]http://cs.stanford.edu/people/karpathy/convnetjs/) [[github]](https://github.com/karpathy/convnetjs) 
+- Convnetjs by Andrej Karpathy [JavaScript]: [[homepage]](http://cs.stanford.edu/people/karpathy/convnetjs/) [[github]](https://github.com/karpathy/convnetjs)
 - Theano by Université de Montréal  [Python]: [[homepage]](http://deeplearning.net/software/theano/) [[github]](https://github.com/Theano/Theano) 
 - Deeplearning4j by startup Skymind  [Java]: [[homepage]](https://deeplearning4j.org/) [[github]](https://github.com/deeplearning4j/deeplearning4j) 
 - Paddle by Baidu  [C++]: [[homepage]](http://www.paddlepaddle.org/) [[github]](https://github.com/PaddlePaddle/Paddle) 
