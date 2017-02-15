@@ -84,6 +84,8 @@ Deep convolutional neural networks have led to a series of breakthroughs in larg
 - [Faster R-CNN](https://github.com/rbgirshick/py-faster-rcnn)
 - [Generative Adversarial Networks (GANs)](https://github.com/goodfeli/adversarial)
 - [Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks)](https://github.com/Newmu/dcgan_code)
+- [ResNeXt: Aggregated Residual Transformations for Deep Neural Networks)](https://github.com/facebookresearch/ResNeXt)
+- [MultiPath Network training code](https://github.com/facebookresearch/multipathnet)
 
 ----------
 
