@@ -4,7 +4,7 @@
 [<img src="https://raw.githubusercontent.com/GKalliatakis/Adventures-in-deep-learning/master/logo.png?raw=true">](http://gkalliatakis.com/blog/adventures-in-deep-learning)
 -->
 
-## State-of-the-art Deep Learning publications, frameworks & resources
+## Deep Learning publications, frameworks & resources
 
 ### Overview
 Deep convolutional neural networks have led to a series of breakthroughs in large-scale image and video recognition. This repository aims at presenting an elaborate list of the latest works on the field of Deep Learning since 2013.
@@ -56,6 +56,11 @@ Deep convolutional neural networks have led to a series of breakthroughs in larg
 
 ----------
 
+### Notes from [Coursera DeepLearning courses by Andrew Ng](https://www.coursera.org/specializations/deep-learning), created by [@TessFerrandez](https://twitter.com/TessFerrandez)
+
+- Download from [here](https://www.slideshare.net/TessFerrandez/notes-from-coursera-deep-learning-courses-by-andrew-ng)
+
+----------
 ### Courses / Tutorials (Webpages unless other is stated)
 - [Caffe Tutorial (CVPR 2015)](https://docs.google.com/presentation/d/1TI4TbU1NaKdPG0VRMhQjW8hsKdnjwx3StjhCZ5ZT5UM/edit#slide=id.g7569f7be5_1_0)
 - [Tutorial on Deep Learning for Vision (CVPR 2014)](https://sites.google.com/site/deeplearningcvpr2014/)
